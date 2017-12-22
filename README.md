@@ -1,21 +1,10 @@
 # Решатель квадратных уравнений
 
-[TODO. Находит корни квадратного уравнения]
+[Находит корни квадратного уравнения]
 
 # Как использовать
 
-[TODO. Здесь будет описание программного интерфейса: функция get_roots, аргументы a, b, c, возвращает два корня, один корень или None. from math import sqrt, 
-def get_roots(a, b, c):
-    discriminant = b ** 2 - 4 * a * c
-    if discriminant < 0:
-        return None, None
-    else:
-        root1 = (-b - sqrt(discriminant)) / (2 * a)
-        root2 = (-b + sqrt(discriminant)) / (2 * a)
-        if discriminant == 0:
-            return root1, None
-        elif discriminant > 0:
-            return root1, root2.]
+[функция принимает 3 аргумента, возвращает два корня, один корень.]
 
 # Как запустить
 
